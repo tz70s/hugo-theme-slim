@@ -177,10 +177,23 @@ button,
   margin: 3rem auto; }
 
 .site-title {
-  font-size: 1.5rem;
-  font-weight: 700; }
-  .site-title a {
-    color: #333; }
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.site-title a {
+  color: #333;
+}
+
+.sub-site-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.sub-site-title a {
+  color: #333;
+}
 
 .nav {
   position: absolute;
@@ -256,13 +269,13 @@ button,
 .container {
   *zoom: 1;
   width: auto;
-  max-width: 42em;
+  max-width: 65em;
   float: none;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 0;
-  padding-right: 0; }
+  padding-left: 2.5em;
+  padding-right: 2.5em; }
   .container:before, .container:after {
     content: '';
     display: table; }
