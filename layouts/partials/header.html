@@ -6,6 +6,8 @@
     {{ end }}
     {{ with .Site.Params.LinkedInID }} <a class="sub-site-title" href="https://linkedin.com/in/{{.}}">LinkedIn</a>
     {{ end }}
+    {{ with .Site.Params.ResumeLink }} <a class="sub-site-title" href="{{.}}">Resume</a>
+    {{ end }}
   </div>
   <p class="site-tagline">{{ .Site.Params.Subtitle }}</p>
 </div>
