@@ -1,13 +1,5 @@
 <div class="header">
-  <div class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-    {{ with .Site.Params.GithubID }} <a class="sub-site-title" href="https://github.com/{{.}}">Github</a>
-    {{ end }}
-    {{ with .Site.Params.TwitterID }} <a class="sub-site-title" href="https://twitter.com/{{.}}">Twitter</a>
-    {{ end }}
-    {{ with .Site.Params.LinkedInID }} <a class="sub-site-title" href="https://linkedin.com/in/{{.}}">LinkedIn</a>
-    {{ end }}
-    {{ with .Site.Params.ResumeLink }} <a class="sub-site-title" href="{{.}}">Resume</a>
-    {{ end }}
-  </div>
-  <p class="site-tagline">{{ .Site.Params.Subtitle }}</p>
+    <div class="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> {{ with .Site.Params.GithubID }} <a class="sub-site-title" href="https://github.com/{{.}}">Github</a> {{ end }} {{ with .Site.Params.TwitterID }} <a class="sub-site-title" href="https://twitter.com/{{.}}">Twitter</a>        {{ end }} {{ with .Site.Params.LinkedInID }} <a class="sub-site-title" href="https://linkedin.com/in/{{.}}">LinkedIn</a> {{ end }}
+    </div>
+    <p class="site-tagline">{{ .Site.Params.Subtitle }}</p>
 </div>
